@@ -3,7 +3,7 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 50px;
-
+    
 }
 
 #p1{
@@ -13,9 +13,6 @@
     background-size: cover;
     box-shadow: 1px 1px 10px;
     margin-bottom: 50px;
-    border-radius: 3px;
-
-
 }
 
 #p2{
@@ -24,8 +21,6 @@
     background-image: url(./image/Kathmandu_4.webp);
     background-size: cover;
     box-shadow: 1px 1px 10px;
-    border-radius: 3px;
-
 }
 
 #p3{
@@ -34,7 +29,6 @@
     background-image: url(./image/chitwan-national-park.jpg);
     background-size: cover;
     box-shadow: 1px 1px 10px;
-    border-radius: 3px;
 
 }
 
@@ -44,7 +38,6 @@
     background-image: url(./image/everest-base-camp-at.jpg);
     background-size: cover;
     box-shadow: 1px 1px 10px;
-    border-radius: 3px;
 
 }
 
@@ -54,7 +47,6 @@
     background-image: url(./image/rara-lake.jpg);
     background-size: cover;
     box-shadow: 1px 1px 10px;
-    border-radius: 3px;
 
 }
 #p6{
@@ -63,8 +55,7 @@
     background-image: url(./image/pokhara.webp);
     background-size: cover;
     box-shadow: 1px 1px 10px;
-    border-radius: 3px;
-
+    margin-bottom: 50px;
 }
 
 #p7{
@@ -73,7 +64,6 @@
     background-image: url(./image/Kathmandu_4.webp);
     background-size: cover;
     box-shadow: 1px 1px 10px;
-    border-radius: 3px;
 
 }
 
@@ -83,7 +73,6 @@
     background-image: url(./image/chitwan-national-park.jpg);
     background-size: cover;
     box-shadow: 1px 1px 10px;
-    border-radius: 3px;
 
 }
 
@@ -93,7 +82,6 @@
     background-image: url(./image/everest-base-camp-at.jpg);
     background-size: cover;
     box-shadow: 1px 1px 10px;
-    border-radius: 3px;
 
 }
 
@@ -103,8 +91,95 @@
     background-image: url(./image/rara-lake.jpg);
     background-size: cover;
     box-shadow: 1px 1px 10px;
-    border-radius: 3px;
 
 }
 
+#p11{
+    height: 250px;
+    width: 255px;
+    background-image: url(./image/pokhara.webp);
+    background-size: cover;
+    box-shadow: 1px 1px 10px;
+    margin-bottom: 50px;
+}
+
+#p12{
+    height: 250px;
+    width: 255px;
+    background-image: url(./image/Kathmandu_4.webp);
+    background-size: cover;
+    box-shadow: 1px 1px 10px;
+
+}
+
+#p13{
+    height: 250px;
+    width: 255px;
+    background-image: url(./image/chitwan-national-park.jpg);
+    background-size: cover;
+    box-shadow: 1px 1px 10px;
+
+}
+
+#p14{
+    height: 250px;
+    width: 255px;
+    background-image: url(./image/everest-base-camp-at.jpg);
+    background-size: cover;
+    box-shadow: 1px 1px 10px;
+
+}
+
+#p15{
+    height: 250px;
+    width: 255px;
+    background-image: url(./image/rara-lake.jpg);
+    background-size: cover;
+    box-shadow: 1px 1px 10px;
+
+}
+#p16{
+    height: 250px;
+    width: 255px;
+    background-image: url(./image/pokhara.webp);
+    background-size: cover;
+    box-shadow: 1px 1px 10px;
+
+}
+
+#p17{
+    height: 250px;
+    width: 255px;
+    background-image: url(./image/Kathmandu_4.webp);
+    background-size: cover;
+    box-shadow: 1px 1px 10px;
+
+}
+
+#p18{
+    height: 250px;
+    width: 255px;
+    background-image: url(./image/chitwan-national-park.jpg);
+    background-size: cover;
+    box-shadow: 1px 1px 10px;
+
+}
+
+#p19{
+    height: 250px;
+    width: 255px;
+    background-image: url(./image/everest-base-camp-at.jpg);
+    background-size: cover;
+    box-shadow: 1px 1px 10px;
+
+}
+
+#p20{
+    height: 250px;
+    width: 255px;
+    background-image: url(./image/rara-lake.jpg);
+    background-size: cover;
+    box-shadow: 1px 1px 10px;
+
+}
 
