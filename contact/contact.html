@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Tourism Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            background-image: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)), url(../image/pokhara.webp);
+            background-size: cover;
+            position: relative;
+        }
+
+        .container {
+            width: 500px;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 10px 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            position: absolute;
+            margin: 50px 0px 0px 31%;
+           
+        }
+
+        h1 {
+            text-align: center;
+
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        button {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #85c1fc;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        a {
+            width: 80px;
+            height: 10px;
+            padding: 13px;
+            color: rgb(238, 225, 225);
+            text-decoration: none;
+            border-radius: 25px;
+            position: absolute;
+            margin-top: 20px;
+            text-align: center;
+            margin-left: 92%;
+        }
+
+        a:hover {
+            cursor: pointer;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <a href="http://127.0.0.1:5500/project.html"><strong>Home</strong></a>
+
+        <div class="container">
+
+            <h1>Contact Us</h1>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+
+            <div class="contact-info">
+                <p><strong>Email:</strong> contact@travelmandu.com</p>
+                <p><strong>Phone:</strong> 9837287632, 0812389333</p>
+                <p><strong>Address:</strong> New-Baneshwor, Kathmandu, Nepal</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function (event) {
+            event.preventDefault(); // Prevent form submission
+            alert('Thank you for your message! We will get back to you soon.');
+            // Here, you can add code to send the form data to a server, if needed.
+            this.reset(); // Reset the form after submission
+        });
+    </script>
+
+</body>
+
+</html>
