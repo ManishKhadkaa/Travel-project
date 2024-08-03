@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Booking System</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Travelmandu - Booking</h1>
+        <form id="bookingForm">
+            <div class="form-group">
+                <label for="destination">Search Destination:</label>
+                <input type="text" id="destination" required>
+
+            </div>
+            <div class="form-group">
+                <label for="travelDate">Travel Date:</label>
+                <input type="date" id="travelDate" required>
+            </div>
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" placeholder="Your Phone Number" required>
+            </div>
+            <button type="submit">Book Now</button>
+        </form>
+        <div id="confirmation"></div>
+    </div>
+    <script src="booking.js"></script>
+</body>
+</html>
