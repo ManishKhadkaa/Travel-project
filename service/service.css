@@ -7,7 +7,7 @@ body {
 
 header {
     color: black;
-    padding: 50px;
+    padding: 10px;
     text-align: center;
     background-image: url(../image/service.image/header.jpg);
 }
@@ -117,6 +117,6 @@ a:hover{
     justify-content: space-around;
     padding-left: 60%;
     cursor: pointer;
-    background-image: url(../image/service.image/header.jpg);
-    padding-top: 20px;
+    padding-top: 10px;
+    font-family: none;
 }

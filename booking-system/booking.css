@@ -2,17 +2,19 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     margin: 0;
     background-image: url(https://wallpaperaccess.com/full/166021.jpg);
 
+
 }
 
 .container {
-    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;   
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
@@ -65,5 +67,22 @@ button:hover {
     border: 1px solid #4CAF50;
     border-radius: 5px;
     display: none;
+}
+#nav2{
+    display: flex;
+    justify-content: end;
+    justify-content: space-around;
+    padding-left: 60%;
+    cursor: pointer;
+    padding-top: 10px;
+    font-family: none;
+}
+a{
+text-decoration: none;
+padding: 10px;
+color: aliceblue;
+}
+a:hover{
+border: 1px solid white;
 }
 
