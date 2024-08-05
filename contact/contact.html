@@ -73,31 +73,33 @@
             margin-top: 20px;
             text-align: center;
         }
-
-        a {
-            width: 80px;
-            height: 10px;
-            padding: 13px;
-            color: rgb(238, 225, 225);
-            text-decoration: none;
-            border-radius: 25px;
-            position: absolute;
-            margin-top: 20px;
-            text-align: center;
-            margin-left: 92%;
-        }
-
-        a:hover {
+        #nav2{
+            display: flex;
+            justify-content: end;
+            justify-content: space-between;
+            padding-left: 60%;
             cursor: pointer;
-            padding: 5px;
         }
+        a{
+        text-decoration: none;
+        padding: 10px;
+        color: aliceblue;
+    }
+    a:hover{
+        border: 1px solid white;
+    }
     </style>
 </head>
 
 <body>
-
+    <div id="nav2">
+        <a href="http://127.0.0.1:5500/project.html">HOME</a>
+        <a href="http://127.0.0.1:5500/booking-system/booking.html" >BOOKING</a>
+        <a href="http://127.0.0.1:5500/about-us/about-us.html" >ABOUT</a>
+        <a href="http://127.0.0.1:5500/service/service.html" >SERVICE</a>
+        <a href="./auth/form.html" >AUTHERIZATION</a>
+    </div>
     <div>
-        <a href="http://127.0.0.1:5500/project.html"><strong>Home</strong></a>
 
         <div class="container">
 
